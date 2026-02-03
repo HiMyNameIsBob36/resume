@@ -27,6 +27,16 @@ header {
  height: 125px;
 }
 
+#navigationButtons {
+ display: flex;
+ flex-direction: row;
+ gap: 30px;
+}
+
+#navigationButtons button {
+ width: 200px;
+}
+
 #contentButtons {
  display: flex;
  flex-direction: column;

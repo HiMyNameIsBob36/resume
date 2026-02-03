@@ -35,6 +35,8 @@ header {
 
 #navigationButtons button {
  width: 200px;
+ border: #0d0d0d solid 4px;
+ border-rasius: 10px 10px 0px 0px;
 }
 
 #contentButtons {

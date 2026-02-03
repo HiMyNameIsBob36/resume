@@ -27,6 +27,11 @@ header {
  height: 125px;
 }
 
+#contentButtons {
+ display: flex;
+ flex-direction: column;
+}
+
 footer {
  position: absolute;
  bottom: 0px;

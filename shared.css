@@ -6,6 +6,12 @@ html {
   justify-content: center;
 }
 
-html {
+body {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px;
 }

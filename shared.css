@@ -24,7 +24,7 @@ header {
  align-items: center;
  border-bottom: #0d0d0d solid 5px;
  width: 90%;
- height: 125px;
+ /* height: 125px; */
 }
 
 #navigationButtons {

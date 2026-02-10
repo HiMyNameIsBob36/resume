@@ -2,7 +2,7 @@ console.log("working just fine!")
 
 //OOP - Inheritence
 class MyHeader extends HTMLElement {
-  conectedCallback() {
+  connectedCallback() {
       this.innerHTML = `
       <header>
      <h1>The Resume of ME :D</h1>
@@ -18,4 +18,4 @@ class MyHeader extends HTMLElement {
   }
 }
 
-custonElements.define('my-header, MyHeader')
+customElements.define('my-header, MyHeader')

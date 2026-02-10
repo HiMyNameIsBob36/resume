@@ -18,7 +18,7 @@ body {
   position: relative;
 }
 
-header {
+my-header {
  display: flex;
  flex-direction: column;
  align-items: center;

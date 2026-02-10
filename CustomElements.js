@@ -18,7 +18,7 @@ class MyHeader extends HTMLElement {
 
 class MyFooter extends HTMLElement {
   connectedCallback() {
-      this.innerHTML = ``
+      this.innerHTML = `<p>When I feel like it :P</p>`
   }
 }
 

@@ -16,4 +16,4 @@ class MyHeader extends HTMLElement {
   }
 }
 
-customElements.define('my-header, MyHeader')
+customElements.define('my-header', MyHeader)

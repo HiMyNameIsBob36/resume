@@ -41,6 +41,14 @@ header {
  border-bottom: none;
 }
 
+#contentButtons button, #contentButtons button { 
+ transition: border-colour 0.3s linear;
+}
+
+#navigationButtons button:hover, #contentButtons button:hover { 
+ border-colour: #A9A9A9;
+}
+
 #contentButtons {
  display: flex;
  flex-direction: column;

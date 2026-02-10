@@ -17,3 +17,5 @@ class MyHeader extends HTMLElement {
     `
   }
 }
+
+custonElements.define('my-header, MyHeader')

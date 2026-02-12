@@ -39,7 +39,7 @@ my-header {
  height: 35px;
  background-color: #768948;
  border: #607744 solid 3px;
- border-rasius: 10px 10px 0px 0px;
+ border-radius: 10px 10px 0px 0px;
  border-bottom: none;
 }
 

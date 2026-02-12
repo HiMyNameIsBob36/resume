@@ -38,11 +38,11 @@ button {
 #navigationButtons {
  display: flex;
  flex-direction: row;
- gap: 30px;
+ gap: 7%;
 }
 
 #navigationButtons button {
- width: 200px;
+ width: 10%;
  height: 35px;
  border-radius: 10px 10px 0px 0px;
  border-bottom: none;

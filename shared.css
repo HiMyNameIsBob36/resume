@@ -28,13 +28,6 @@ my-header {
  /* height: 125px; */
 }
 
-button {
- color: #000000;
- background-color: #768948;
- border: #607744 solid 4px;
- font-family: 'DM Sans';
-}
-
 #navigationButtons {
  display: flex;
  flex-direction: row;
@@ -49,7 +42,11 @@ button {
 }
 
 #contentButtons button, #contentButtons button { 
- transition: border-colour 0.3s linear;
+ transition: border-color 0.3s linear;
+ color: #000000;
+ background-color: #768948;
+ border: #607744 solid 4px;
+ font-family: 'DM Sans';
 }
 
 #navigationButtons button:hover, #contentButtons button:hover { 

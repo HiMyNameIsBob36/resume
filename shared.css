@@ -29,9 +29,9 @@ my-header {
 }
 
 button {
-color: #000000;
+ color: #000000;
  background-color: #768948;
- border: #607744 solid 3px;
+ border: #607744 solid 4px;
  font-family: 'DM Sans';
 }
 
@@ -44,9 +44,6 @@ color: #000000;
 #navigationButtons button {
  width: 200px;
  height: 35px;
- color: #000000;
- background-color: #768948;
- border: #607744 solid 3px;
  border-radius: 10px 10px 0px 0px;
  border-bottom: none;
 }
@@ -69,9 +66,6 @@ color: #000000;
 #contentButtons button {
  width: 300px;
  height: 100px;
- color: #000000;
- background-color: #768948;
- border: #607744 solid 6px;
  border-radius: 20px;
  font-size: 24px;
 }

@@ -37,7 +37,8 @@ my-header {
 #navigationButtons button {
  width: 200px;
  height: 35px;
- border: #0d0d0d solid 4px;
+ background-color: #768948;
+ border: #607744 solid 3px;
  border-rasius: 10px 10px 0px 0px;
  border-bottom: none;
 }
@@ -60,7 +61,7 @@ my-header {
 #contentButtons button {
  width: 300px;
  height: 100px;
- colour: #768948;
+ background-color: #768948;
  border: #607744 solid 6px;
  border-radius: 20px;
  font-size: 24px;

@@ -41,7 +41,7 @@ my-header {
  border-bottom: none;
 }
 
-#contentButtons button, #contentButtons button { 
+#navigationButtons button, #contentButtons button { 
  transition: border-color 0.3s linear;
  color: #000000;
  background-color: #768948;

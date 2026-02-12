@@ -50,7 +50,8 @@ my-header {
 }
 
 #navigationButtons button:hover, #contentButtons button:hover { 
- border-colour: #A9A9A9;
+ background-color: #607744;
+ border: #768948 solid 4px;
 }
 
 #contentButtons {

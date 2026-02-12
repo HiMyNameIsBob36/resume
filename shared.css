@@ -28,6 +28,13 @@ my-header {
  /* height: 125px; */
 }
 
+button {
+color: #000000;
+ background-color: #768948;
+ border: #607744 solid 3px;
+ font-family: 'DM Sans';
+}
+
 #navigationButtons {
  display: flex;
  flex-direction: row;

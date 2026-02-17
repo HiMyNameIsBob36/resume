@@ -17,9 +17,12 @@ function setup() {
     rectMode(CENTER);
     fill(250,0,0);
     stroke(0, 0, 0);
+    strokeWeight(5);
     rect(450, mouseY, 15, 75, 10);
 
     //BALL
+    ball.add(vel);
+    ellipse(ball.x, ball.y, 20 );
     
     
  }

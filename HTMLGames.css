@@ -17,4 +17,6 @@
 
 #gamePanel {
  border: 1px black dotted;
+ width: 500px;
+ height: 500px;
 }

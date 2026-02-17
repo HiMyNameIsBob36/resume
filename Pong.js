@@ -8,6 +8,8 @@ function setup() {
  myCanvas.parent('gamePanel'); //fix
  ball = createVector(50,250);
  vel = createVector(1,0);
+ vel.rotate( radians( random(-45,45) ) );
+ vel.setMag(5);
 }
 
  function draw() {
@@ -25,7 +27,7 @@ function setup() {
     if (ball.x > 500) vel.reflect( createVector(-1,0) );
     if (ball.x < 0) vel.reflect( createVector(1,0) );
     if (ball.y > 500) vel.reflect( createVector(0,-1) );
-    if (ball.y < 0) vel.reflect( createVector(1,0) );
+    if (ball.y < 0) vel.reflect( createVector(0, 1) );
 
     if
 

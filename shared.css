@@ -31,11 +31,11 @@ my-header {
 #navigationButtons {
  display: flex;
  flex-direction: row;
- gap: 5vw;
+ gap: 2vw;
 }
 
 #navigationButtons button {
- width: 15vw;
+ width: 10vw;
  height: 35px;
  border-radius: 10px 10px 0px 0px;
  border-bottom: none;

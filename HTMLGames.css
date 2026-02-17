@@ -1,1 +1,11 @@
+#bodyContent {
+ border: 1px black dotted;
+}
 
+#gameNav {
+ border: 1px black dotted;
+}
+
+#gamePanel {
+ border: 1px black dotted;
+}

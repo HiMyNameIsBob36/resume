@@ -1,11 +1,15 @@
 console.log("Pong")
 
 let myCanvas;
+let ball, vel
 
 function setup() {
  myCanvas = createCanvas(500, 500);
  myCanvas.parent('gamePanel'); //fix
+ ball = createVector(50,250);
+ vel = createVector(1,0);
 }
+
  function draw() {
     background(255, 0, 255);
 

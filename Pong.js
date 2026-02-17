@@ -29,9 +29,8 @@ function setup() {
     if (ball.y > 500) vel.reflect( createVector(0,-1) );
     if (ball.y < 0) vel.reflect( createVector(0, 1) );
 
-    if
-
-  
     fill(250,0,0); 
     ellipse(ball.x, ball.y, 20 );
+
+     //COLISIONS
  }

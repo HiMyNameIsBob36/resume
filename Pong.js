@@ -22,7 +22,8 @@ function setup() {
 
     //BALL
     ball.add(vel);
+    if (ball.x > 500) vel.reflect()
+  
+    fill(250,0,0); 
     ellipse(ball.x, ball.y, 20 );
-    
-    
  }

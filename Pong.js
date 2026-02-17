@@ -22,7 +22,13 @@ function setup() {
 
     //BALL
     ball.add(vel);
-    if (ball.x > 500) vel.reflect()
+    if (ball.x > 500) vel.reflect( createVector(-1,0) );
+    if (ball.x < 0) vel.reflect( createVector(1,0) );
+    if (ball.y > 500) vel.reflect( createVector(0,-1) );
+    if (ball.y < 0) vel.reflect( createVector(1,0) );
+
+    if
+
   
     fill(250,0,0); 
     ellipse(ball.x, ball.y, 20 );

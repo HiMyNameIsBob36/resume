@@ -1,5 +1,5 @@
 var loadedGame = document.createElement("script");
-loadedGame.src = "Games/Pong.js"
+loadedGame.src = `Games/${sessionStorage.getItem("loadedGame")}`
 document.head.appendChild(loadedGame);
 
 function loadNewGame( filename) {

@@ -32,5 +32,10 @@ function setup() {
     fill(250,0,0); 
     ellipse(ball.x, ball.y, 20 );
 
-     //COLISIONS
+    //COLISIONS
+    if (abs(ball.x-450) < 20 && abs(ball.y-mouseY) < 50) {
+       vel.set(-1,0);
+       vel.rotate( radians(random(-60,60) ) );
+       vel.setMwg(5):
+    }
  }

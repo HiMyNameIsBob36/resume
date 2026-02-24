@@ -1,5 +1,10 @@
 var loadedGame = document.createElement("script");
-loadedGame.src = `Games/${sessionStorage.getItem("loadedGame")}`
+if (sessionStorage.getItem("loadedGame") !=null)
+  loadedGame.src = `Games/${sessionStorage.getItem("loadedGame")}`
+else {
+  loadedGame.src = 
+
+} 
 document.head.appendChild(loadedGame);
 
 function loadNewGame( filename) {

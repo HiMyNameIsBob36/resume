@@ -4,6 +4,7 @@ document.getElementById("submittionID").addEventListener('submit',
       const formData = new FormData(event.target);
 
       fetch(event.target.action, {
-      }
-
+            method: event.target.method,
+            body: formData
+      })
 })

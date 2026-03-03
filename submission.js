@@ -7,4 +7,6 @@ document.getElementById("submittionID").addEventListener('submit',
             method: event.target.method,
             body: formData
       })
+
+      document.getElementById("submissionPanel").style.display = "none";
 })

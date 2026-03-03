@@ -13,6 +13,6 @@ function registerNewVisitor( anonCheck ) {
     sessionStorage.setItem("visitorCompany", "anon")
   } else {
     sessionStorage.setItem("visitorName", document.getElementById("visitorName").value)
-    sessionStorage.setItem("visitorCompany", document.getElementById("visitorCompany").value")
+    sessionStorage.setItem("visitorCompany", document.getElementById("visitorCompany").value)
   }
 }

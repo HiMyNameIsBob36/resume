@@ -1,3 +1,9 @@
+var openerElement;
+
+window.customElements.whenDefined('my-opener').then( function() { 
+   var openerElement = document.getElementById("opener") 
+})
+
 var openerElement = document.getElementById("opener")
 // sessionStorage.setItem("visitorName", "Micky Mouse");
 // TURN OFF WHEN READY TO POST

@@ -24,9 +24,17 @@ class MyFooter extends HTMLElement {
 
 class MyOpener extends HTMLElement {
   connectedCallback() {
-      this.innerHTML = `<p>When I feel like it :P</p>`
+      this.innerHTML = `   <div id = 'opener'> 
+        <form action="">
+          <label for=""> Name <input type="text" id="visitorName"> </label>
+          <label for=""> Company <input type="text" id="companyName"> </label>
+          <input type="submit" id="submitVisitor" value="Submit">
+          <input type="button" id="submitAnon" value="Decline">
+        </form>  
+      </div>`
   }
 }
 
 customElements.define('my-header', MyHeader)
 customElements.define('my-footer', MyFooter)
+customElements.define('my-opener', MyOpener)

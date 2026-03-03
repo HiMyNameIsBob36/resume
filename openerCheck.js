@@ -4,9 +4,9 @@ window.customElements.whenDefined('my-opener').then( function() {
    var openerElement = document.getElementById("opener");
 
    if (sessionStorage.getItem("visitorName") == null)
-  openerElement style.display = "block";
+  openerElement.style.display = "block";
    else
-  openerElement style.display = "none";
+  openerElement.style.display = "none";
 
 
    document.getElementById("SubmitVisitor").addEventListener('click', function(event) {

@@ -1,6 +1,8 @@
 var openerElement = document.getElementById("opener")
 // sessionStorage.setItem("visitorName", "Micky Mouse");
-// sessionStorage.removeItem("visitorName");
+// TURN OFF WHEN READY TO POST
+sessionStorage.removeItem("visitorName");
+sessionStorage.removeItem("visitorCompany");
 
 if (sessionStorage.getItem("visitorName") == null
   openerElement style.display = "block";
@@ -16,3 +18,15 @@ function registerNewVisitor( anonCheck ) {
     sessionStorage.setItem("visitorCompany", document.getElementById("visitorCompany").value)
   }
 }
+
+document.getElementById("SubmitVisitor").addEventListener('click', function(event) {
+  event.preventDefault();
+  registerNewVisitor( false);
+  openElement.style.display = "none"
+})
+
+document.getElementById("SubmitAnon").addEventListener('click', function(event) {
+  event.preventDefault();
+  registerNewVisitor( true );
+  openElement.style.display = "none"
+})

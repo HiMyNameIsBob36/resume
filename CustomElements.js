@@ -18,6 +18,12 @@ class MyHeader extends HTMLElement {
 
 class MyFooter extends HTMLElement {
   connectedCallback() {
+      this.innerHTML = `<p>When I get the chance :P</p>`
+  }
+}
+
+class MyOpener extends HTMLElement {
+  connectedCallback() {
       this.innerHTML = `<p>When I feel like it :P</p>`
   }
 }

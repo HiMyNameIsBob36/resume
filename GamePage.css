@@ -7,10 +7,16 @@
 
 #imageContainer {
  width: 500px;
+ padding: 20px;
+ position: relative;
 }
 
 .slide img {
   width: 100%;
   object-fit: contaion;
+}
 
+#prevImg, #nextImg {
+ position: absolute;
+ top: 40%;
 }

@@ -17,9 +17,7 @@ document.getElementBuId("VisitorName").addEventListener('submit', function(event
    })
    registerNewvisitor(false);
    openerElement.style.dispaly = "none;
-      
- 
-   }
+   })
 
 }
 

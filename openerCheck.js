@@ -1,16 +1,31 @@
 var openerElement;
 
 window.customElements.whenDefined('my-opener').then( function() { 
-   var openerElement = document.getElementById("opener");
+    openerElement = document.getElementById("opener");
 
    if (sessionStorage.getItem("visitorName") == null)
   openerElement.style.display = "block";
    else
   openerElement.style.display = "none";
+   
+document.getElementBuId("VisitorName").addEventListener('submit', function(event) {
+   event.preventDefault();
+   const formData = new FromData(event.targer);
+   fetch(event.target.action, {
+     method:event.targer.method,
+      body:formData    
+   })
+   registerNewvisitor(false);
+   openerElement.style.dispaly = "none;
+      
+ 
+   }
+
+}
 
 
    document.getElementById("SubmitVisitor").addEventListener('click', function(event) {
-  event.preventDefault();
+      event.preventDefault();
   registerNewVisitor(false);
   openerElement.style.display = "none"
 })

@@ -19,4 +19,14 @@
 #prevImg, #nextImg {
  position: absolute;
  top: 40%;
+ font-size: 35px;
+ cursor: pointer;
+}
+
+#prevImg {
+ left: 30px;
+}
+
+#nextImg {
+ right: 30px;
 }

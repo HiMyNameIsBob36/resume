@@ -11,14 +11,14 @@ window.customElements.whenDefined('my-opener').then( function() {
 
    document.getElementById("SubmitVisitor").addEventListener('click', function(event) {
   event.preventDefault();
-  registerNewVisitor( false);
-  openElement.style.display = "none"
+  registerNewVisitor(false);
+  openerElement.style.display = "none"
 })
 
 document.getElementById("SubmitAnon").addEventListener('click', function(event) {
   event.preventDefault();
-  registerNewVisitor( true );
-  openElement.style.display = "none"
+  registerNewVisitor(true);
+  openerElement.style.display = "none"
 })
 
 })

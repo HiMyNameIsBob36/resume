@@ -24,8 +24,10 @@ class MyFooter extends HTMLElement {
 
 class MyOpener extends HTMLElement {
   connectedCallback() {
-      this.innerHTML = `   <div id = 'opener'> 
-        <form action="">
+      this.innerHTML = `   
+      <div id = 'opener'> 
+       <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="39daabdd-7de4-4142-81ca-ab4554932530">
           <label for=""> Name <input type="text" id="visitorName"> </label>
           <label for=""> Company <input type="text" id="companyName"> </label>
           <input type="submit" id="submitVisitor" value="Submit">

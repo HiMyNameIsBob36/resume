@@ -26,10 +26,10 @@ class MyOpener extends HTMLElement {
   connectedCallback() {
       this.innerHTML = `   
       <div id = 'opener'> 
-       <form action="https://api.web3forms.com/submit" method="POST">
+       <form action="https://api.web3forms.com/submit" method="POST" id="VisitorForm">
           <input type="hidden" name="access_key" value="39daabdd-7de4-4142-81ca-ab4554932530">
-          <label for=""> Name <input type="text" id="visitorName"> </label>
-          <label for=""> Company <input type="text" id="companyName"> </label>
+          <label for=""> Name <input type="text" id="visitorName" name="VisitorName"> </label>
+          <label for=""> Company <input type="text" id="visitorCompany" name="visitorCompany"> </label>
           <input type="submit" id="submitVisitor" value="Submit">
           <input type="button" id="submitAnon" value="Decline">
         </form>  
